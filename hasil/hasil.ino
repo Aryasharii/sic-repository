@@ -3,7 +3,7 @@
 #include <DHT.h>
 
 // Constants
-#define DHTPIN 13
+#define DHTPIN 32
 #define DHTTYPE DHT11   
 #define WIFI_SSID "Madrasah Dalam UPer"
 #define WIFI_PASS "Dalambanget17"
