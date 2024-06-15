@@ -1,10 +1,11 @@
 #include <DHT.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
+#define DEBUG_ESP_HTTP_CLIENT
 
-const char* ssid = "Kos Bu Yayan";
-const char* password = "Bangunpagi123";
-const char* serverName = "http://192.168.1.21:5000/api/sensor";
+const char* ssid = "Redmi 9T";
+const char* password = "Arya123aa";
+const char* serverName = "http://192.168.238.221:5000/api/sensor";
 
 DHT dht(15, DHT11);
 
